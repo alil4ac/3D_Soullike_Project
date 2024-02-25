@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6855432253863864733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6855432253863864729}
+  - component: {fileID: 6855432253863864730}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6855432253863864729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6855432253863864733}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6855432253863864730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6855432253863864733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed959ade9216fd479eae01fa4bd4b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UI_Canvas: {fileID: 2991655320272169350, guid: 2deee46f17e1e3545b9923d0a63bdd06,
+    type: 3}
+  _PlayerStatusBar: {fileID: 0}
+  BossHPSlider: {fileID: 0}
+  _QuickSlots: {fileID: 0}
+  _MenuLayer: {fileID: 0}
+  _EquipMainLayer: {fileID: 0}
+  _StatusLayer: {fileID: 0}
+  LoreImage: {fileID: 0}
+  WeaponImage:
+  - {fileID: 21300000, guid: 09202280abc6d0c49afa42a07b498d1d, type: 3}
+  - {fileID: 4557453345521276531, guid: 7ca95ac8026eef9488777f58549ff95b, type: 3}
+  - {fileID: 1013666125464341023, guid: 7ca95ac8026eef9488777f58549ff95b, type: 3}
+  HelmatImage:
+  - {fileID: 21300000, guid: 214def011e5b496409af6fdeaabee34a, type: 3}
+  - {fileID: 21300000, guid: edc2b9429bfc5ed439d639e2e798b5cf, type: 3}
+  - {fileID: 21300000, guid: 8a37d9aa0b1b6e54095bc9f23885094f, type: 3}
+  TopArmorImage:
+  - {fileID: 21300000, guid: 2571fa3b12336b440a1c272f2b3bbff9, type: 3}
+  - {fileID: 21300000, guid: 29a5be1648317354ab11fc7ebcc8cdf9, type: 3}
+  - {fileID: 21300000, guid: 65764d5ec20a81945b29fab6ba07271e, type: 3}
+  GauntletImage:
+  - {fileID: 21300000, guid: b2b3bada2b1d48e4090f66a2da4dae86, type: 3}
+  - {fileID: 21300000, guid: 3b346615c9eaec94b96597fbc6afd485, type: 3}
+  - {fileID: 21300000, guid: 47c4de486c2f7fb46bcbed4a297181d8, type: 3}
+  LegArmorImage:
+  - {fileID: 21300000, guid: 7220900a53057d14d9c5e59905cc1c9b, type: 3}
+  - {fileID: 21300000, guid: 56e282c10a437e143ac7d22adce911a0, type: 3}
+  - {fileID: 21300000, guid: 953401dc53cb61141a198953fb527e68, type: 3}
