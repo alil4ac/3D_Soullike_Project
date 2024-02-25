@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdc32c66ed3f9f34c8959cc52c2da0e1, type: 3}
+  m_Name: LongSwordDataTable
+  m_EditorClassIdentifier: 
+  _ItemImage: {fileID: 4557453345521276531, guid: 7ca95ac8026eef9488777f58549ff95b,
+    type: 3}
+  _ItemName: "\uB871\uC18C\uB4DC"
+  _ItemType: "\uBCA0\uAE30"
+  _MeleeATK: 60
+  _MagicATK: 0
+  _BonusSTR: --
+  _BonusSTRValue: 0
+  _BonusINT: --
+  _BonusINTValue: 0
+  _Weapon_DMG: 0
+  _SideEffect: --
